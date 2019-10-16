@@ -24,7 +24,7 @@ def play(songs)
       return
     end
     if input == songs[i]
-      puts songs[i]
+      puts "#{songs[i]}"
       return
   }
   puts "Invalid input, please try again"
