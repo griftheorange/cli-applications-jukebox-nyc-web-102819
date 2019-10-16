@@ -20,11 +20,11 @@ def play(songs)
   
   songs.length.times {|i|
     if input.to_i == i+1
-      puts #{songs[i+1]}"
+      puts "Playing #{songs[i+1]}"
       return
     end
     if input == songs[i]
-      puts "#{songs[i]}"
+      puts "Playing #{songs[i]}"
       return
   }
   puts "Invalid input, please try again"
