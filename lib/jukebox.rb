@@ -32,5 +32,6 @@ end
 def run
   puts "Please enter a command:"
   input = gets.strip
-  switch 
+  case x
+  when 
 end
