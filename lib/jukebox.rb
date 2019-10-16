@@ -34,10 +34,13 @@ def run
   while true
     input = gets.strip
     case input
-    when 
-    
-    
-    
-    
+    when 'list'
+      
+    when 'play'
+      play
+    when 'help'
+      help
+    when 'exit'
+      
   end
 end
