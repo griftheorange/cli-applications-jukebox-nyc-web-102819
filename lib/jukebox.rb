@@ -19,10 +19,13 @@ def play(songs)
   input = gets.strip
   
   songs.length.times {|i|
-    if input.to_i == i+1 || input == songs[i]
+    if input.to_i == i+1
       puts #{songs[i+1]}"
       return
     end
+    if input == songs[i]
+      puts songs[i]
+      return
   }
   puts "Invalid input, please try again"
 end
